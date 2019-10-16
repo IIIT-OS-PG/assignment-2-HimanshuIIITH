@@ -1,0 +1,22 @@
+basic info about tracker and peer:
+
+1.in case peer_final is not working then only go for peer_final_b
+
+2.there is a race condition at admin while request to join group for authentication
+and request thread always win there so while before pressing 1 or 2 press
+comething then q now we are ready to take input as 1 0r 2(1 for accepting and 2 for rejceting)
+ 
+3.upload_file groupname filename filesize q
+
+4.before pressing ctrl+c every peer should press q and then enter otherwise tracker
+will enter into infinite loop.
+
+5.download_file groupid filename q
+
+6.you can give your own indexes in starting of main in piece_info vector and corresponding
+piecewise file can be placed using chunk_sender and chunk_receiver program.
+
+
+
+
+
